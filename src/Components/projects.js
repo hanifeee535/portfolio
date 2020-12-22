@@ -24,7 +24,7 @@ const Projects = ({project })=>{
                                             <div className = 'card-body'> 
                                                 <h4 className = 'card-title'> {name} </h4>
                                                 <p className = 'lead'> Type : {category} </p>
-                                                <button className = 'btn btn-lg'> <a href = {url}> See Details </a> </button>
+                                                <button className = 'btn btn-lg'> <a  className = 'text-info' href = {url}> See Details </a> </button>
                                               </div>
                                          </div>
                                  </div>

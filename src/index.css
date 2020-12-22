@@ -30,8 +30,6 @@ ul {
 
 .header {
   background: #030c18;
-
-  border-bottom: 3px solid #002d5b;
 }
 .hero {
   color: #fff;
@@ -75,7 +73,7 @@ ul {
   background: #404853;
 }
 .skill {
-  background: #138496;
+  background: #002d5b;
   text-align: center;
   color: #fff;
   height: 20px;
@@ -136,10 +134,7 @@ article.nextSlide {
   cursor: pointer;
   transition: all 0.3s linear;
 }
-.prev:hover,
-.next:hover {
-  background: blue;
-}
+
 .prev {
   left: 0;
 }
@@ -169,11 +164,11 @@ article.nextSlide {
 }
 
 .filter-btn {
-  font-size: 1rem;
+  font-size: 1.2rem !important;
   text-transform: capitalize;
   margin: 0 0.5rem;
   letter-spacing: 1px;
-  color: #ce8349 !important;
+  color: rgba(1, 12, 28, 1) !important;
 }
 
 @media only screen and (max-width: 992px) {

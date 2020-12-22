@@ -31,26 +31,22 @@ const ShortIntro = ()=>{
                             <p className = 'lead'> <span> <FaMapMarkerAlt/> Gazipur, Dhaka , Bangladesh</span>  </p>
                             <ul className  = 'nav'>
                                 <li className = 'nav-item social-icon '>
-                                    <a href = 'https://www.facebook.com/sahanif.ringku/'  target='blank' className = 'nav-link' > <FaFacebook/> </a>
+                                    <a href = 'https://www.facebook.com/sahanif.ringku/'  target='blank' className = 'text-info nav-link' > <FaFacebook/> </a>
                                 </li>
                                 <li className = 'nav-item social-icon'>
-                                    <a href = 'https://www.instagram.com/sa_hanif_ringku/?hl=en' target='blank'  className = 'nav-link' > <FaInstagram/> </a>
+                                    <a href = 'https://www.instagram.com/sa_hanif_ringku/?hl=en' target='blank'  className = 'text-info nav-link' > <FaInstagram/> </a>
                                 </li>
                                 <li className = 'nav-item social-icon '>
-                                    <a href = 'https://twitter.com/a_ringku' target='blank' className = 'nav-link' > <FaTwitter/> </a>
+                                    <a href = 'https://twitter.com/a_ringku' target='blank' className = 'text-info nav-link' > <FaTwitter/> </a>
                                 </li>
                                 <li className = 'nav-item social-icon'>
-                                    <a href = 'https://www.linkedin.com/in/soyabbir-abu-hanif-85518018a/'  target='blank' className = 'nav-link' > <FaLinkedinIn/> </a>
+                                    <a href = 'https://www.linkedin.com/in/soyabbir-abu-hanif-85518018a/'  target='blank' className = 'text-info nav-link' > <FaLinkedinIn/> </a>
                                 </li>
                             </ul>
                         </div>
                     </div>
 
-                    <div className = 'row py-4 '>
-                        <div className = 'col text-center'>
-                            <Link to ='/about'> <button className = 'btn btn-outline-primary'> More About Me </button> </Link>
-                        </div>
-                    </div>
+                    
                 </div>
             </section>
         </>

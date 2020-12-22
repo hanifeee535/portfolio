@@ -11,7 +11,7 @@ const Hero = ()=>{
                         <h3 className = 'mt-5  ' > Hey! this is.... </h3>
                         <h1 className = 'display-4 py-2 ' >S A Hanif Ringku</h1>
                         <h5 className = 'py-2 mb-4 ' > Web Designer || React js Developer || WordPress Developer </h5>
-                        <Link className = 'btn btn-outline-light btn-lg my-5 ' to ='/' >  Get In Touch  </Link>
+                        <Link className = 'btn btn-outline-light  btn-lg my-5 ' to ='/' >  Get In Touch  </Link>
                         
                        
                     </div>

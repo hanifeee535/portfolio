@@ -15,10 +15,10 @@ const Footer = ()=>{
             <div className = 'col-lg-3 col-sm-6 footerCol'>
                 <h4> Links </h4>
                 <ul>
-                    <li> <Link to = '/'> Home </Link> </li>
-                    <li> <Link to = '/'> About </Link> </li>
-                    <li> <Link to = '/'> Project </Link> </li>
-                    <li> <Link to = '/'> Contact </Link> </li>
+                    <li > <Link className= 'text-light' to = '/'> Home </Link> </li>
+                    <li> <Link className= 'text-light' to = '/'> About </Link> </li>
+                    <li> <Link className= 'text-light' to = '/'> Project </Link> </li>
+                    <li> <Link className= 'text-light' to = '/'> Contact </Link> </li>
                 </ul>
             </div>
             <div className = 'col-lg-3 col-sm-6 footerCol'>

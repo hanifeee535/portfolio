@@ -1,7 +1,7 @@
 import React from 'react'
 const ProjectCategory = ({category , filterItem})=>{
     return <>
-     <div className = 'row pt-3'>
+     <div className = 'row pt-5'>
                    <div className = 'col text-center'>
                        
                             {

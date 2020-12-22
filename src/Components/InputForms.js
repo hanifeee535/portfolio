@@ -72,7 +72,7 @@ const InputForms = ()=>{
                  onChange = {(e)=>setText(e.target.value)}
                  />
              </div>
-             <button className = 'btn btn-lg btn-primary' type = 'submit' > Send your Message </button>
+             <button className = 'btn btn-lg btn-info' type = 'submit' > Send your Message </button>
          </form>
      </div>
      </>
